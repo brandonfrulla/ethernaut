@@ -6,9 +6,9 @@ contract Counter {
     uint public count;
     address payable owner;
 
-    /* I added this constructor, the b
-     *
-     * 
+    /* I added this constructor because it gave me the chance
+     * to add the owner var, that my onlyOwner modifier 
+     * would rely on.
      */
     
     constructor() public {
@@ -19,6 +19,8 @@ contract Counter {
         count += 1;
     }
 
+    /* This one was the real 'test'.
+     */
     function clearCount() public onlyOwner {
         count = 0;
     }
