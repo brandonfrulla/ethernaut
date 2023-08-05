@@ -8,7 +8,7 @@ module.exports = {
       enabled: true,
       outputFile: 'gas-rpt.txt',
       currency: 'USD',
-      coinmarketcap: '6496bd44-13ca-4c8d-991e-ccbd1056f381',
+      coinmarketcap: 'replace-w-CMC-api-key',
       noColors: true,
   }
 };
