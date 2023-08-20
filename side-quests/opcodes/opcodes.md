@@ -72,7 +72,7 @@ Storage similar to Memory, but SSTORE and SLOAD.
     - has a few restrictions compared to memory
     - storage is very expensive to use on-chain
     - SSTORE: 2,900 - 20k gas+
-    - MSTORE: 3+ gas ( :'0 )
+    - MSTORE: 3+ gas ( :'0 ) 
 
 Solidity opcode primitives:
     msg.sender;
