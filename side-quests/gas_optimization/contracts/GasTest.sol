@@ -20,7 +20,12 @@ contract GasTest {
     //GAS COST WHERE amount->10 = 34948
     function inc2(uint256 amount) external {
         uint256 _tempCount = counter;
+<<<<<<< HEAD
         for (uint256 i; i < amount; i++) {
+=======
+        for (uint256 i; i < amount; ++i) //++ before the var is more gas-friendly in Solidity
+        {
+>>>>>>> 0354887 (fix 2)
             _tempCount += 1;
         }
         counter = _tempCount;
